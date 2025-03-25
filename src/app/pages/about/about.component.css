@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&display=swap');
+
+/* Apply the Playwrite HU font for the 'M' in the name */
+.font-playwrite {
+  font-family: 'Playwrite HU', serif;
+  font-style: italic;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background: #e0dfdf; */
+    background: #010101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, #0b8593 91.1%);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.justify-text {
+    text-align: justify;
+}

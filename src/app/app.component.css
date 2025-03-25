@@ -1,0 +1,11 @@
+/* Basic Reset */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&display=swap');
+
+/* Apply the Playwrite HU font for the 'M' in the name */
+.font-playwrite {
+  font-family: 'Playwrite HU', serif;
+  font-style: italic;
+}
