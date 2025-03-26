@@ -4,3 +4,26 @@
 html {
     scroll-behavior: smooth;
   }
+
+  @media (max-width: 500px) {
+    .hero-banner {
+      font-size: 18px;
+      padding: 20px;
+    }
+  }
+  
+  /* Medium devices (tablets, 601px to 1024px) */
+  @media (min-width: 501px) and (max-width: 924px) {
+    .hero-banner {
+      font-size: 24px;
+      padding: 40px;
+    }
+  }
+  
+  /* Large devices (laptops, desktops) */
+  @media (min-width: 925px) {
+    .hero-banner {
+      font-size: 32px;
+      padding: 60px;
+    }
+  }
